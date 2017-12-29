@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Verify Ownership\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Liviu Costache <tiguan@tiguandesign.com>\n"
+"Language-Team: Tiguandesign.com <tiguan@tiguandesign.com>\n"
+"MIME-Version: 1.0\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:77
+msgid "*You can insert one or more statistic codes."
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:54
+msgid "Alexa Verification ID"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:40
+msgid "Bing Verification ID"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:74
+msgid "Google Analytics, StatCounter or any other statistics service"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:34
+msgid "Google Verification ID"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:102
+msgid ""
+"In all verification fields above, you must enter only the IDs, not the "
+"entire code provided. For example, from the below code you should copy only "
+"the highlighted text:"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:120
+msgid "Installed Version:"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:92
+msgid "Instructions"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:61
+msgid "Pinterest Verification ID"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:66
+msgid "Please enter IDs only!"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:127
+msgid "Released date:"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:73
+msgid "Site Statistics Tracker"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:109
+msgid "Version Information"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:31
+msgid "Webmaster Verification"
+msgstr ""
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:47
+msgid "Yahoo Verification ID"
+msgstr ""

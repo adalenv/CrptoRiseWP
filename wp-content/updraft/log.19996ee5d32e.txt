@@ -1,0 +1,170 @@
+0000.000 (0) Opened log file at time: Tue, 19 Dec 2017 14:55:43 +0000 on https://crptorise.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.16 WP: 4.9.1 PHP: 7.1.12 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.5.57 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 268435456 (used: 31.6M | 34M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 343379.6 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.010 (0) Semaphore (fd, bJNgMxwxoptions) being initialised
+0000.016 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.021 (0) Set semaphore last lock (fd) time to 2017-12-19 14:55:43
+0000.022 (0) Semaphore lock (fd) complete
+0000.029 (0) Backup run: resumption=0, nonce=19996ee5d32e, begun at=1513695343 (0s ago), job type=backup
+0000.032 (0) Scheduling a resumption (1) after 300 seconds (1513695643) in case this run gets aborted
+0000.041 (0) Checking if we have a zip executable available
+0000.042 (0) Testing: /usr/bin/zip
+0000.047 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.048 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.049 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.050 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.052 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.056 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.057 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.062 (0) Working binary zip found: /usr/bin/zip
+0000.064 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.066 (0) Creation of backups of directories: beginning
+0000.069 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.542 (0) Total entities for the zip file: 379 directories, 2179 files (0 skipped as non-modified), 34.5 MB
+0000.545 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.548 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.551 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.554 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.557 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.558 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.3 MB, 2179 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.223 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: size is now: 2.70 MB
+0003.227 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 600 files added (on-disk size: 2805.7 KB)
+0003.230 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 700 files added (on-disk size: 2805.7 KB)
+0003.233 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 800 files added (on-disk size: 2805.7 KB)
+0003.235 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 900 files added (on-disk size: 2805.7 KB)
+0003.238 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1000 files added (on-disk size: 2805.7 KB)
+0003.240 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 2179 files batched, 501 (1002) added so far); re-opening (prior size: 2805.7 KB)
+0004.756 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: size is now: 4.90 MB
+0004.761 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1100 files added (on-disk size: 5015.6 KB)
+0004.764 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1200 files added (on-disk size: 5015.6 KB)
+0004.767 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1300 files added (on-disk size: 5015.6 KB)
+0004.770 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1400 files added (on-disk size: 5015.6 KB)
+0004.773 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1500 files added (on-disk size: 5015.6 KB)
+0004.775 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.5 MB, 2179 files batched, 501 (1503) added so far); re-opening (prior size: 5015.6 KB)
+0005.436 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: size is now: 9.10 MB
+0005.441 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1600 files added (on-disk size: 9325.1 KB)
+0005.444 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1700 files added (on-disk size: 9325.1 KB)
+0005.447 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1800 files added (on-disk size: 9325.1 KB)
+0005.450 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 1900 files added (on-disk size: 9325.1 KB)
+0005.454 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 2000 files added (on-disk size: 9325.1 KB)
+0005.455 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 2179 files batched, 501 (2004) added so far); re-opening (prior size: 9325.1 KB)
+0005.586 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip.tmp: 2100 files added (on-disk size: 10259.3 KB)
+0005.818 (0) Created plugins zip (0) - 10729.3 KB in 5.7 s (1867 KB/s) (sha1: f12cdbd7e571f713ca4061535e7cf1d1be08fb5b, sha256: 08f5809315cec2529db00d46e9a3ef04613dd207a401fff832ba699868f0d0f5)
+0005.821 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.413 (0) Total entities for the zip file: 74 directories, 606 files (0 skipped as non-modified), 10.5 MB
+0006.416 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.419 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.422 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0006.424 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0006.427 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0006.428 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.4 MB, 606 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0008.395 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-themes.zip.tmp: size is now: 5.10 MB
+0008.400 (0) Zip: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-themes.zip.tmp: 600 files added (on-disk size: 5240.8 KB)
+0008.897 (0) Created themes zip (0) - 5649.2 KB in 3.1 s (1837.1 KB/s) (sha1: 80529d5755a2961e0bf1ae5588ea2b7b1669dfaa, sha256: 74bd012ac23ac7534ad683d89c1fed6519da2a5cdfa7879d93a7208aa4ebf686)
+0008.902 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.904 (0) Looking for candidates to back up in: /homepages/37/d709063798/htdocs/clickandbuilds/CrptoRiseTheonestopresourceforallCryptoCurrencies/wp-content/uploads
+0008.905 (0) finding files: 2017: adding to list (1)
+0008.906 (0) finding files: 2011: adding to list (2)
+0008.908 (0) finding files: 2014: adding to list (3)
+0008.909 (0) finding files: 2012: adding to list (4)
+0008.910 (0) finding files: 2013: adding to list (5)
+0008.911 (0) finding files: ultimatemember: adding to list (6)
+0008.913 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.964 (0) Total entities for the zip file: 16 directories, 7 files (0 skipped as non-modified), 2.6 MB
+0009.091 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-uploads.zip.tmp: size is now: 0.40 MB
+0009.101 (0) Created uploads zip (0) - 392.3 KB in 0.2 s (2103.5 KB/s) (sha1: 9fe6a19cb3449d9d8353872e734777511eae3395, sha256: 3b0ba587fd6aeb112e4d35752ec95ff3fcbef9005b568d12bf3667388134878b)
+0009.104 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.106 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.107 (0) Looking for candidates to back up in: /homepages/37/d709063798/htdocs/clickandbuilds/CrptoRiseTheonestopresourceforallCryptoCurrencies/wp-content
+0009.108 (0) finding files: index.php: adding to list (1)
+0009.110 (0) finding files: plugins: skipping: this is the plugins directory
+0009.112 (0) finding files: themes: skipping: this is the themes directory
+0009.113 (0) finding files: php.ini: adding to list (2)
+0009.115 (0) finding files: mu-plugins: adding to list (3)
+0009.116 (0) finding files: uploads: skipping: this is the uploads directory
+0009.118 (0) finding files: upgrade: skipping: excluded by options
+0009.119 (0) finding files: languages: adding to list (4)
+0009.121 (0) finding files: ngg: adding to list (5)
+0009.122 (0) finding files: gallery: adding to list (6)
+0009.123 (0) finding files: et-content: adding to list (7)
+0009.124 (0) finding files: updraft: skipping: this is the updraft directory
+0009.132 (0) Total entities for the zip file: 8 directories, 6 files (0 skipped as non-modified), 0 MB
+0009.145 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-others.zip.tmp: size is now: 0.00 MB
+0009.151 (0) Created others zip (0) - 3.1 KB in 0 s (121.3 KB/s) (sha1: 7622eff536c1e9373f39495898b44f576aae7354, sha256: 4e2cba5b1fd13963404cc89de20d486de0aa9dab1b08eadb4fb80d502ac4bcba)
+0009.158 (0) Saving backup status to database (elements: 8)
+0009.165 (0) Beginning creation of database dump (WordPress DB)
+0009.168 (0) Testing: /usr/bin/mysqldump
+0009.196 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `bJNgMxwxoptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */ (truncated - 1214 bytes total)
+0009.203 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0009.213 (0) Table bJNgMxwxoptions: Total expected rows (approximate): 239
+0009.245 (0) Table bJNgMxwxoptions: Total rows added: 235 in 0.03 seconds
+0009.247 (0) Table bJNgMxwxoptions: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxoptions.table.gz - 75.7 KB)
+0009.253 (0) Table bJNgMxwxusers: Total expected rows (approximate): 10
+0009.259 (0) Table bJNgMxwxusers: Total rows added: 10 in 0.00 seconds
+0009.260 (0) Table bJNgMxwxusers: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxusers.table.gz - 1.1 KB)
+0009.266 (0) Table bJNgMxwxusermeta: Total expected rows (approximate): 234
+0009.272 (0) Table bJNgMxwxusermeta: Total rows added: 234 in 0.01 seconds
+0009.274 (0) Table bJNgMxwxusermeta: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxusermeta.table.gz - 4.1 KB)
+0009.279 (0) Table bJNgMxwxcommentmeta: Total expected rows (approximate): 74
+0009.285 (0) Table bJNgMxwxcommentmeta: Total rows added: 74 in 0.00 seconds
+0009.286 (0) Table bJNgMxwxcommentmeta: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxcommentmeta.table.gz - 0.8 KB)
+0009.292 (0) Table bJNgMxwxcomments: Total expected rows (approximate): 66
+0009.299 (0) Table bJNgMxwxcomments: Total rows added: 66 in 0.01 seconds
+0009.300 (0) Table bJNgMxwxcomments: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxcomments.table.gz - 7 KB)
+0009.309 (0) Table bJNgMxwxlinks: Total expected rows (approximate): 0
+0009.314 (0) Table bJNgMxwxlinks: Total rows added: 0 in 0.00 seconds
+0009.315 (0) Table bJNgMxwxlinks: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxlinks.table.gz - 0.4 KB)
+0009.322 (0) Table bJNgMxwxpostmeta: Total expected rows (approximate): 3224
+0009.348 (0) Table bJNgMxwxpostmeta: Total rows added: 3224 in 0.02 seconds
+0009.350 (0) Table bJNgMxwxpostmeta: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxpostmeta.table.gz - 25.2 KB)
+0009.356 (0) Table bJNgMxwxposts: Total expected rows (approximate): 415
+0009.378 (0) Table bJNgMxwxposts: Total rows added: 415 in 0.02 seconds
+0009.379 (0) Table bJNgMxwxposts: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxposts.table.gz - 56.2 KB)
+0009.385 (0) Table bJNgMxwxterm_relationships: Total expected rows (approximate): 461
+0009.399 (0) Table bJNgMxwxterm_relationships: Total rows added: 461 in 0.01 seconds
+0009.400 (0) Table bJNgMxwxterm_relationships: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxterm_relationships.table.gz - 1.8 KB)
+0009.406 (0) Table bJNgMxwxterm_taxonomy: Total expected rows (approximate): 403
+0009.413 (0) Table bJNgMxwxterm_taxonomy: Total rows added: 403 in 0.01 seconds
+0009.414 (0) Table bJNgMxwxterm_taxonomy: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxterm_taxonomy.table.gz - 3.3 KB)
+0009.420 (0) Table bJNgMxwxtermmeta: Total expected rows (approximate): 0
+0009.424 (0) Table bJNgMxwxtermmeta: Total rows added: 0 in 0.00 seconds
+0009.425 (0) Table bJNgMxwxtermmeta: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxtermmeta.table.gz - 0.4 KB)
+0009.431 (0) Table bJNgMxwxterms: Total expected rows (approximate): 403
+0009.439 (0) Table bJNgMxwxterms: Total rows added: 403 in 0.01 seconds
+0009.440 (0) Table bJNgMxwxterms: finishing file (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxterms.table.gz - 4.6 KB)
+0009.445 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxoptions.table.gz (1/12): adding to final database dump
+0009.461 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxusers.table.gz (2/12): adding to final database dump
+0009.462 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxusermeta.table.gz (3/12): adding to final database dump
+0009.465 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxcommentmeta.table.gz (4/12): adding to final database dump
+0009.466 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxcomments.table.gz (5/12): adding to final database dump
+0009.468 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxlinks.table.gz (6/12): adding to final database dump
+0009.469 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxpostmeta.table.gz (7/12): adding to final database dump
+0009.478 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxposts.table.gz (8/12): adding to final database dump
+0009.488 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxterm_relationships.table.gz (9/12): adding to final database dump
+0009.489 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxterm_taxonomy.table.gz (10/12): adding to final database dump
+0009.491 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxtermmeta.table.gz (11/12): adding to final database dump
+0009.493 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db-table-bJNgMxwxterms.table.gz (12/12): adding to final database dump
+0009.495 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db.gz: finished writing out complete database file (152 KB)
+0009.503 (0) Total database tables backed up: 12 (backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db.gz, size: 182939, sha256)
+0009.513 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.514 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.515 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.517 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.518 (0) backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.520 (0) Saving backup history. Total backup size: 16.6 MB
+0009.525 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.529 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0009.530 (0) No remote despatch: user chose no remote backup service
+0009.534 (0) Recording as successfully uploaded: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-plugins.zip (34abe3039b5c2f1364bb9578381f6f79)
+0009.542 (0) Recording as successfully uploaded: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-themes.zip (b42bab37a480d9a26aa28ed6e93a72da)
+0009.549 (0) Recording as successfully uploaded: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-uploads.zip (2d97e4a5545a111a8c194a2902b5ccd9)
+0009.556 (0) Recording as successfully uploaded: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-others.zip (9af7f56d5e3f066a8b6eb99aafa649d8)
+0009.563 (0) Recording as successfully uploaded: backup_2017-12-19-1455_CrptoRise_The_one_stop_resourc_19996ee5d32e-db.gz (a7876dda30a3296df8a8c0428258592e)
+0009.570 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0009.571 (0) Resume backup (19996ee5d32e, 0): finish run
+0009.576 (0) Decremented the semaphore (fd) by 1
+0009.579 (0) Semaphore (fd) unlocked
+0009.580 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0009.586 (0) No email will/can be sent - the user has not configured an email address.
+0009.587 (0) The backup apparently succeeded and is now complete

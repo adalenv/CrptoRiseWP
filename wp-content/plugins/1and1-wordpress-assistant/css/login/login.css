@@ -1,0 +1,474 @@
+@keyframes circles {
+  0%,
+  25% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-30deg);
+  }
+}
+@keyframes circle-5 {
+  0%,
+  25% {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  100% {
+    transform: translateX(-8%) translateY(-50%) scale(1);
+  }
+}
+@keyframes circle-6 {
+  0%,
+  25% {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  100% {
+    transform: translateX(-102%) translateY(-50%) scale(1);
+  }
+}
+@keyframes weave-red {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    background-position: -560px 0;
+  }
+}
+@keyframes weave-blue {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    background-position: -818px 0;
+  }
+}
+body.login {
+  color: #ffffff;
+  background: #134094;
+  background-size: 100% 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+body.login section {
+  padding: 16px;
+}
+body.login section,
+body.login div,
+body.login :before,
+body.login :after {
+  box-sizing: border-box;
+  transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  animation-fill-mode: forwards !important;
+}
+body.login a {
+  color: #176ff4;
+  text-decoration: none;
+}
+body.login .page-gradient-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(45deg, rgba(201, 243, 110, 0.25) 0%, rgba(0, 0, 0, 0) 30%), linear-gradient(0deg, rgba(255, 102, 0, 0.31) 0%, rgba(0, 0, 0, 0) 30%), linear-gradient(-45deg, rgba(212, 105, 58, 0.34) 0%, rgba(0, 0, 0, 0) 50%), linear-gradient(-45deg, rgba(0, 102, 255, 0.54) 0%, rgba(0, 0, 0, 0) 50%);
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+body.login .header {
+  line-height: 34px;
+  pointer-events: none;
+  width: 100%;
+  height: 66px;
+  position: relative;
+  z-index: 1;
+}
+body.login .header img {
+  vertical-align: top;
+  margin-right: 18px;
+}
+body.login .float-left {
+  float: left;
+}
+body.login *::-webkit-input-placeholder {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  opacity: .5;
+}
+body.login *:-moz-placeholder {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  opacity: .5;
+}
+body.login *::-moz-placeholder {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  opacity: .5;
+}
+body.login *:-ms-input-placeholder {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  opacity: .5;
+}
+body.login .input {
+  position: relative;
+  margin-bottom: 2em;
+  transition: none;
+}
+body.login .input .underline {
+  height: 2px;
+  width: 320px;
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+  margin-left: -160px;
+  background: #176ff4;
+  transform: scaleX(0);
+}
+body.login .input input[type=text],
+body.login .input input[type=password],
+body.login .input input[type=date],
+body.login .input input[type=datetime-local],
+body.login .input input[type=email],
+body.login .input input[type=month],
+body.login .input input[type=number],
+body.login .input input[type=password],
+body.login .input input[type=search],
+body.login .input input[type=tel],
+body.login .input input[type=text],
+body.login .input input[type=time],
+body.login .input input[type=url],
+body.login .input input[type=week] {
+  opacity: 1;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333333;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #999999;
+  text-align: center;
+  position: relative;
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+}
+body.login .input input[type=text]:focus,
+body.login .input input[type=password]:focus,
+body.login .input input[type=date]:focus,
+body.login .input input[type=datetime-local]:focus,
+body.login .input input[type=email]:focus,
+body.login .input input[type=month]:focus,
+body.login .input input[type=number]:focus,
+body.login .input input[type=password]:focus,
+body.login .input input[type=search]:focus,
+body.login .input input[type=tel]:focus,
+body.login .input input[type=text]:focus,
+body.login .input input[type=time]:focus,
+body.login .input input[type=url]:focus,
+body.login .input input[type=week]:focus {
+  outline: none;
+}
+body.login .input input[type=text]:focus + .underline,
+body.login .input input[type=password]:focus + .underline,
+body.login .input input[type=date]:focus + .underline,
+body.login .input input[type=datetime-local]:focus + .underline,
+body.login .input input[type=email]:focus + .underline,
+body.login .input input[type=month]:focus + .underline,
+body.login .input input[type=number]:focus + .underline,
+body.login .input input[type=password]:focus + .underline,
+body.login .input input[type=search]:focus + .underline,
+body.login .input input[type=tel]:focus + .underline,
+body.login .input input[type=text]:focus + .underline,
+body.login .input input[type=time]:focus + .underline,
+body.login .input input[type=url]:focus + .underline,
+body.login .input input[type=week]:focus + .underline {
+  transform: scaleX(1);
+}
+body.login .input input[type=text]:-webkit-autofill,
+body.login .input input[type=password]:-webkit-autofill,
+body.login .input input[type=date]:-webkit-autofill,
+body.login .input input[type=datetime-local]:-webkit-autofill,
+body.login .input input[type=email]:-webkit-autofill,
+body.login .input input[type=month]:-webkit-autofill,
+body.login .input input[type=number]:-webkit-autofill,
+body.login .input input[type=password]:-webkit-autofill,
+body.login .input input[type=search]:-webkit-autofill,
+body.login .input input[type=tel]:-webkit-autofill,
+body.login .input input[type=text]:-webkit-autofill,
+body.login .input input[type=time]:-webkit-autofill,
+body.login .input input[type=url]:-webkit-autofill,
+body.login .input input[type=week]:-webkit-autofill {
+  -webkit-text-fill-color: #333333;
+  -webkit-box-shadow: inset 0 0 0 9999px white;
+}
+body.login .input.error {
+  margin-bottom: 0;
+}
+body.login .input.error .underline {
+  background: #f44336;
+  transform: scaleX(1);
+}
+body.login .input.error + .message {
+  color: #f44336;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 2em;
+}
+body.login .input.error + .message a {
+  color: #f44336;
+}
+body.login .checkboxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body.login .checkboxes .item {
+  margin: 0 1.2em;
+}
+body.login .checkboxes .item .label {
+  opacity: .8;
+  position: relative;
+  cursor: pointer;
+}
+body.login .checkboxes .item .label:before {
+  content: '';
+  border-radius: 2px;
+  border: 2px solid #e1e1e1;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 4;
+}
+body.login .checkboxes .item .label:after {
+  content: '';
+  border: 1px solid white;
+  border-top: none;
+  border-right: none;
+  left: 5px;
+  top: 7px;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  transform: rotate(-45deg);
+  z-index: 5;
+}
+body.login .checkboxes .item input[type="checkbox"] {
+  display: none;
+}
+body.login .checkboxes .item input[type="checkbox"]:checked + .label {
+  opacity: 1;
+}
+body.login .checkboxes .item input[type="checkbox"]:checked + .label:before {
+  background-color: #176ff4;
+  border: none;
+}
+body.login .card-container {
+  width: 100%;
+  height: calc(100% -  66px );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 66px;
+  padding-top: 0;
+  perspective: 1000px;
+  z-index: 2;
+}
+body.login .card-container .card {
+  background-color: #ffffff;
+  color: #666666;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 0 4px 73px 0 rgba(0, 1, 0, 0.24);
+  transition: all .3s, width .5s, rotate .01s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 660px;
+  overflow: hidden;
+  position: relative;
+  transform: scale(0);
+}
+body.login .card-container .card.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: 300ms;
+}
+body.login .card-container .card.morphing {
+  background-color: #e3e9ef;
+  box-shadow: 0 14px 73px 0 rgba(0, 1, 0, 0.54);
+}
+body.login .card-container .card.morphing > * > * {
+  opacity: 0;
+  transform: scale(0.9);
+}
+body.login .card-container .card.morphing-first {
+  opacity: 0;
+  background-color: #e3e9ef;
+  transform: scale(2.1);
+  box-shadow: 0 14px 73px 0 rgba(0, 1, 0, 0.54);
+  transition: 20s!important;
+  animation-duration: 2s !important;
+}
+body.login .card-container .card.morphing-first > * > * {
+  opacity: 0;
+  transform: scale(0.9);
+}
+body.login .card-container .card .card-header {
+  z-index: 2;
+  position: relative;
+}
+body.login .card-container .card .card-header .icon {
+  width: 0;
+  height: 50px;
+  position: relative;
+  margin: 100px auto 60px;
+}
+body.login .card-container .card .card-header .icon svg {
+  position: absolute;
+  left: -75px;
+  top: 0;
+}
+body.login .card-container .card .card-header .icon .circles {
+  width: 0;
+  height: 100%;
+  animation: 2.5s circles;
+}
+body.login .card-container .card .card-header .icon .circles .circle {
+  border-radius: 50%;
+  position: absolute;
+  width: 160px;
+  height: 160px;
+}
+body.login .card-container .card .card-header .icon .circles .circle.circle-5 {
+  background-color: #bc8bbd;
+  box-shadow: 0 10px 30px 0 rgba(211, 183, 214, 0.7);
+  opacity: 0.6;
+  transform: translateX(-50%) translateY(-50%);
+  animation: 2s circle-5;
+  width: 130px;
+  height: 130px;
+}
+body.login .card-container .card .card-header .icon .circles .circle.circle-6 {
+  background-color: #83cb9e;
+  box-shadow: 0 10px 30px 0 rgba(175, 210, 165, 0.7);
+  opacity: 0.6;
+  transform: translateX(-50%) translateY(-50%);
+  animation: 2s circle-6;
+  width: 100px;
+  height: 100px;
+}
+body.login .card-container .card .card-header .icon .circles .circle.circle-7 {
+  background-color: #4b8bc8;
+  box-shadow: 0 10px 30px 0 rgba(147, 185, 222, 0.7);
+  opacity: 0.6;
+  transform: translateX(-50%) translateY(-50%);
+  width: 160px;
+  height: 160px;
+}
+body.login .card-container .card .card-content {
+  z-index: 2;
+  padding: 16px 0 calc(32px);
+  position: relative;
+}
+body.login .card-container .card .card-content div#login h1 {
+  display: none;
+}
+body.login .card-container .card .card-content div#login p {
+  margin: 0;
+}
+body.login .card-container .card .card-content div#login p.message,
+body.login .card-container .card .card-content div#login #login_error {
+  display: none;
+}
+body.login .card-container .card .card-content div#login p.submit,
+body.login .card-container .card .card-content div#login p#nav,
+body.login .card-container .card .card-content div#login p#backtoblog {
+  display: none;
+}
+body.login .card-container .card .card-footer {
+  text-align: right;
+  margin: -16px -16px;
+  padding: 8px;
+  z-index: 2;
+}
+body.login .card-container .card .card-footer .btn {
+  line-height: 1.4;
+  font-weight: 500;
+  border-radius: 2px;
+  text-transform: uppercase;
+  transition: .3s;
+  box-sizing: border-box;
+  height: 36px;
+  padding: 8px 16px;
+  margin: 0 8px;
+  display: inline-block;
+}
+body.login .card-container .card .card-footer .btn.btn-secondary {
+  color: #999999;
+}
+body.login .card-container .card .card-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+body.login .card-container .card .card-bg:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.37) 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 1;
+}
+body.login .card-container .card .card-bg.card-weave-red {
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  background-size: 1000px;
+  background-image: url(../../images/card/weave-red.png);
+  animation: 2s weave-red;
+  transform: translateY(-5%);
+}
+body.login .card-container .card .card-bg.card-weave-blue {
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  background-size: 1000px;
+  background-image: url(../../images/card/weave-blue.png);
+  animation: 2s weave-blue;
+  transform: translateY(-5%);
+}

@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Verify Ownership\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Liviu Costache <tiguan@tiguandesign.com>\n"
+"Language-Team: Tiguandesign.com <tiguan@tiguandesign.com>\n"
+"MIME-Version: 1.0\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:77
+msgid "*You can insert one or more statistic codes."
+msgstr "*Poţi introduce unul sau mai mute coduri de statistică"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:54
+msgid "Alexa Verification ID"
+msgstr "ID-ul de verificare Alexa"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:40
+msgid "Bing Verification ID"
+msgstr "ID-ul de verificare Bing"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:74
+msgid "Google Analytics, StatCounter or any other statistics service"
+msgstr "Google Analytics, StatCounter sau alte servicii de statistică"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:34
+msgid "Google Verification ID"
+msgstr "ID-ul de verificare Google"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:102
+msgid ""
+"In all verification fields above, you must enter only the IDs, not the "
+"entire code provided. For example, from the below code you should copy only "
+"the highlighted text:"
+msgstr ""
+"În toate câmpurile de verificare de mai sus, trebuie să introduci doar ID-"
+"urile, nu tot codul furnizat. De exemplu, de la codul de mai jos ar trebui "
+"să copiezi numai textul evidenţiat:"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:120
+msgid "Installed Version:"
+msgstr "Versiunea Instalată"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:92
+msgid "Instructions"
+msgstr "Instrucţiuni"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:61
+msgid "Pinterest Verification ID"
+msgstr "ID-ul de verificare Pinterest"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:66
+msgid "Please enter IDs only!"
+msgstr "Te rog să introduci doar ID-uri"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:127
+msgid "Released date:"
+msgstr "Data lansării"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:73
+msgid "Site Statistics Tracker"
+msgstr "Coduri de statistică site"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:109
+msgid "Version Information"
+msgstr "Informaţii Versiune"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:31
+msgid "Webmaster Verification"
+msgstr "ID-uri de verificare"
+
+#. Text in echo
+#: verify-ownership/templates/settings.php:47
+msgid "Yahoo Verification ID"
+msgstr "ID-ul de verificare Yahoo"
